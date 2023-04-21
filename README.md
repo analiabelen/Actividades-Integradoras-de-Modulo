@@ -2,6 +2,6 @@
 Conformación de grupos de trabajo
 Grupo 10
 Integrantes:_Valentina Rodríguez
-            _Analía Predrozo
+            _Analía Pedrozo
             _Guillermo Godoy
             _Franco Culasso
