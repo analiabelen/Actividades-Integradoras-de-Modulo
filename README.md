@@ -4,4 +4,6 @@ Grupo 10
 Integrantes:_Valentina Rodríguez
             _Analía Predrozo
             _Guillermo Godoy
-            _Franco Culasso
+            _Franco CulassO
+            _Guillermo presente
+            
