@@ -4,6 +4,4 @@ Grupo 10
 Integrantes:_Valentina Rodriguez Yampa
             _Analía Belèn Pedrozo
             _Guillermo Godoy
-            _Franco CulassO
-            _Guillermo presente
-            
+            _Franco Culasso
