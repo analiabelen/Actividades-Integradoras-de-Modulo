@@ -1,0 +1,62 @@
+#Actividad N° 7 
+#LISTAS, TUPLAS, DICCIONARIOS.
+
+
+#Nombres de integrantes de mi familia
+lista1= ['Matias', 'Allegra', 'Gretel', 'Catalina', 'Analia', 'Aurora', 'Juana', 'Maria','Cristina','Francisco'] 
+lista1.sort()
+print (lista1)
+lista1.remove('Aurora')
+print (lista1)
+lista1.remove('Francisco')
+print (lista1)
+
+#Registro de temperaturas del mes de junio
+lista2 = [ 7.1, 6.0, 10.0, 16.5, 7.1, 8.0, 10.2, 9, 3, 8, 9, 10, 3, 5, 6, 
+5, 10.0, 10.5, 11.1, 10.5, 15.0, 7.1, 9.0, 10.0, 6,5, 5.4, 3.5, 2.1, -1.0]
+lista2.sort()
+print(lista2)
+#registro de los 15 primeros dias de julio
+lista2.extend([4.1, 3.5, 6.5, 10.0, 10.0, 11.5, 5.1, 6.4, 8.8, 4.5, -1.0, 0.0, -1.0, 2.2, -2.0 ])
+print (lista2)
+lista2.sort()
+print(lista2)
+
+#Ciudades que visite
+lista3= ['Mar del Plata', 'Lobos', 'San Pedro', 'Escobar', 'Merlo', 'Capilla del Monte', 'San Justo', 'San Bernardo']
+lista3.sort()
+print(lista3)
+lista3.remove('Merlo')
+print(lista3)
+
+##Tuplas
+
+tupla_dinos= ( 'velociraptor', 'carnotaurus', 'triceratops', 'arqueopterix', 'megalosaurio', )
+tupla_calles= ('rivadavia', 'cordoba', 'argentina', 75, 'san juan', 'san martin')
+tupla_arboles=('lapacho', 'crespon', 'paraiso', 'quebracho', 'espinillo', 'aromo', 'cerezo', )
+print(tupla_dinos)
+print(tupla_calles)
+print(tupla_arboles)
+print(tupla_dinos[3])
+
+lista_tuplas= ['tupla_dinos', ('velociraptor', 'carnotaurus', 'triceratops', 'arqueopterix', 'megalosaurio'), 
+'tupla_calles', ('rivadavia', 'cordoba', 'argentina', 75, 'san juan', 'san martin',),
+'tupla_arboles',('lapacho', 'crespon', 'paraiso', 'quebracho', 'espinillo', 'aromo', 'cerezo',) ]
+print(lista_tuplas)
+
+##Diccionario
+
+datos_familia = {26876543 :'Matias', 57345098 :'Gretel' , 30789654 :'Analia', 
+                 58778543:'Allegra', }
+print(datos_familia[57345098])
+familia ampliada, abuelos, tios
+datos_familia[7456321]= 'Nelio'
+datos_familia[55654891]= 'Cristina'
+datos_familia[6654258]= 'Maria'
+datos_familia[25654879]= 'Juana'
+
+print (datos_familia)
+
+#Diccionario con claves autogeneradas (incompleto)
+# diccionario
+numeros_telefonicos= {}
